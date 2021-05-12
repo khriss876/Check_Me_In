@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d4289aa49ee844a2ac715ba3d0f9eaef" Name="Diagram1" ZoomLevel="54">
+        <EntityTypeShape EntityType="checkMeInDBModel.Department" Width="1.5" PointX="5.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="checkMeInDBModel.Employee" Width="1.5" PointX="8" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="checkMeInDBModel.Guest" Width="1.5" PointX="0.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="checkMeInDBModel.PaymentMethod" Width="1.5" PointX="0.75" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="checkMeInDBModel.Room" Width="1.5" PointX="10.125" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="checkMeInDBModel.RoomStatu" Width="1.5" PointX="4.125" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="checkMeInDBModel.sysdiagram" Width="1.5" PointX="10.375" PointY="2" IsExpanded="true" />
+        <AssociationConnector Association="checkMeInDBModel.FK_Employees_Departments" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="checkMeInDBModel.Booking" Width="1.5" PointX="3.5" PointY="2.5" />
+        <AssociationConnector Association="checkMeInDBModel.FK_Bookings_Guests" />
+        <AssociationConnector Association="checkMeInDBModel.FK_Bookings_Rooms" />
+        <EntityTypeShape EntityType="checkMeInDBModel.role" Width="2.125" PointX="15.25" PointY="5.875" />
+        <EntityTypeShape EntityType="checkMeInDBModel.UserRole" Width="2.125" PointX="17.375" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="checkMeInDBModel.User" Width="2.125" PointX="13.75" PointY="3.25" />
+        <AssociationConnector Association="checkMeInDBModel.FK_UserRoles_roles" />
+        <AssociationConnector Association="checkMeInDBModel.FK_UserRoles_Users" />
+        </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
